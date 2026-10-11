@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" data-type="d">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Every voice · Apostle Chidi Emmanuel Amanoh</title>
+<meta name="description" content="Every video and written testimony in the birthday tribute to Apostle Chidi Emmanuel Amanoh.">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/type-review.js"></script>
+</head>
+<body class="page-voices">
+<a class="skip" href="#testimonies">Skip to the testimonies</a>
+
+<header class="voices-top">
+  <div class="site-header site-header--static">
+    <a class="monogram" href="index.html" aria-label="Back to the story" data-bind="honoree.initials">ACE</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="index.html"><svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"></path><path d="M11 6l-6 6 6 6"></path></svg>Back to the story</a>
+    </nav>
+  </div>
+
+  <div class="voices-hero">
+    <div class="voices-hero__inner">
+      <p class="eyebrow eyebrow--gold"><span data-count-all></span> testimonies</p>
+      <h1 class="voices-hero__title"><span class="t-lead">Every</span> <span class="t-key">voice</span></h1>
+      <p class="voices-hero__line"><span data-count-video></span> on video, <span data-count-text></span> written. Start anywhere.</p>
+      <div class="filters">
+        <div class="tabs" role="group" aria-label="Filter by format">
+          <button class="tab" type="button" id="filter-all" data-type="all" aria-pressed="true">All</button>
+          <button class="tab" type="button" id="filter-video" data-type="video" aria-pressed="false">Video</button>
+          <button class="tab" type="button" id="filter-text" data-type="text" aria-pressed="false">Written</button>
+        </div>
+        <div class="chips" role="group" aria-label="Filter by chapter" data-chips></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="voices" id="testimonies">
+  <div class="voices__inner">
+    <p class="voices__showing" data-showing aria-live="polite"></p>
+    <noscript><p class="noscript">This page needs JavaScript to show the testimonies. Please turn it on and reload.</p></noscript>
+    <div class="grid" data-grid></div>
+    <div class="empty" data-empty hidden>
+      <p>No testimonies match these filters yet.</p>
+      <button class="link" type="button" data-reset>Show all</button>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <span class="monogram" data-bind="honoree.initials">ACE</span>
+    <p>Made with love for <span data-bind="honoree.name">Apostle Chidi Emmanuel Amanoh</span>, <span data-bind="occasion.year">2026</span>.</p>
+    <a class="link" href="index.html">Back to the story</a>
+  </div>
+</footer>
+
+<script src="js/content.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
