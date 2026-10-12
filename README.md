@@ -1,4 +1,4 @@
-# Birthday tribute: Apostle Chidi Emmanuel Amanoh
+# Birthday tribute: Apostle Chidiebere Emmanuel Amanoh
 
 Static site. No build step, no dependencies.
 
@@ -31,15 +31,15 @@ Everything is edited in `js/content.js`. Every placeholder video and image has t
 word PLACEHOLDER baked into it, and every placeholder testimony starts with
 "Placeholder.", so anything not yet replaced is visible on the page.
 
-| What | Where in content.js | Notes |
-|---|---|---|
-| Birthday date, church, years in ministry | `occasion` | Empty values are hidden on the page |
-| Opening film | `hero.film.src` | Opens from "Play video" in the hero |
-| Hero background | `hero.video`, `hero.poster` | |
-| Chapter backgrounds | `chapters[].video`, `.poster` | Only `panel` and `center` layouts use one |
-| Testimonies | `testimonies[]` | One line each; add as many as you collect |
-| Photographs | `years.photos[]` | Oldest first |
-| Closing blessing and background | `closing` | |
+| What                                     | Where in content.js           | Notes                                     |
+| ---------------------------------------- | ----------------------------- | ----------------------------------------- |
+| Birthday date, church, years in ministry | `occasion`                    | Empty values are hidden on the page       |
+| Opening film                             | `hero.film.src`               | Opens from "Play video" in the hero       |
+| Hero background                          | `hero.video`, `hero.poster`   |                                           |
+| Chapter backgrounds                      | `chapters[].video`, `.poster` | Only `panel` and `center` layouts use one |
+| Testimonies                              | `testimonies[]`               | One line each; add as many as you collect |
+| Photographs                              | `years.photos[]`              | Oldest first                              |
+| Closing blessing and background          | `closing`                     |                                           |
 
 To add, remove or reorder chapters, edit `chapters` in content.js and the matching
 `<div class="chapter" data-chapter="...">` lines in index.html.
@@ -63,11 +63,13 @@ wide and the key narrow.
 ## Media specs
 
 Background loops (hero, chapters, closing):
+
 - MP4, H.264, 1920x1080, 10 to 15 seconds, no audio track, under 5 MB
 - Keep the subject away from the bottom third; text sits there
 - Supply a poster JPG (first frame) for each
 
 Testimony clips:
+
 - MP4, H.264 video with AAC audio, landscape, 1080p
 - Supply a 16:9 poster JPG for each
 - If the total gets large, host the clips on a video CDN or object storage and put

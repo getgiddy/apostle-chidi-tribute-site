@@ -9,8 +9,8 @@
  */
 window.TRIBUTE = {
   honoree: {
-    name: 'Apostle Chidi Emmanuel Amanoh',
-    nameLines: ['Apostle Chidi', 'Emmanuel Amanoh'], // hero line breaks
+    name: 'Apostle Chidiebere Emmanuel Amanoh',
+    nameLines: ['Apostle Chidiebere', 'Emmanuel Amanoh'], // hero line breaks
     initials: 'ACE'
   },
 
