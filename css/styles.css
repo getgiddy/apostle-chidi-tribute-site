@@ -217,8 +217,8 @@ button { font: inherit; color: inherit; }
 .hero {
   position: relative; overflow: hidden;
   display: flex; flex-direction: column; align-items: center; justify-content: center;
-  min-height: max(560px, 95vh);
-  min-height: max(560px, 95svh);
+  min-height: max(560px, 100vh);
+  min-height: max(560px, 100svh);
   padding: 120px var(--gutter) 112px;
   background: var(--night); color: var(--white); text-align: center;
 }
